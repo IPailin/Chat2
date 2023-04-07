@@ -1,12 +1,11 @@
-﻿#include "Client.hpp"
-#include "Message.hpp"
+#include <iostream>
 #include "Server.h"
 
-int main()
-{
-	Server serv;
-	serv.start_chat();
+int main(){
 
-	return 0;
+    Server ser;
+    ser.start_chat();
+
+    return 0;
 }
 
